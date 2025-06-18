@@ -1,0 +1,50 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Файлы PyCharm
+.idea/
+*.iml
+
+# Скомпилированные Python файлы
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Чувствительные данные
+.env
+secrets.json
+
+# Логи
+logs/
+*.log
+
+# SQLite база данных
+posts.db
+*.sqlite3
+
+# Временные файлы
+*.bak
+*.swp
+*~
+
+# Кэш и временные файлы Python
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+.coverage
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Документация (если не хочешь коммитить сгенерированные файлы)
+docs/_build/
