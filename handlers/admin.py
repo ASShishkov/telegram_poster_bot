@@ -14,7 +14,7 @@ async def is_admin(message):
 @router.message(Command("start"), is_admin)
 async def cmd_start(message):
     logger.info(f"Пользователь {message.from_user.id} отправил команду /start")
-    await message.answer("Привет! Я бот для автоматического постинга. Используй /help для списка команд. Бугага!")
+    await message.answer("Привет! Я бот для автоматического постинга. Используй /help для списка команд. Бугага!!!")
 
 # Обработка команд от неадминов
 @router.message(Command("start"))
